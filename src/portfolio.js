@@ -42,34 +42,38 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Full Stack Developer & IT Specialist focused on building smart, user-friendly web applications",
+  subTitle:
+    "Full Stack Developer & IT Specialist focused on building smart, user-friendly web applications",
   skills: [
-    emoji("⚡ Build full-stack web apps with Python/Flask, C#, Blazor, and JavaScript"),
-    emoji("⚡ Design responsive and clean user interfaces with HTML, CSS, and MudBlazor"),
+    emoji(
+      "⚡ Build full-stack web apps with Python/Flask, C#, Blazor, and JavaScript"
+    ),
+    emoji(
+      "⚡ Design responsive and clean user interfaces with HTML, CSS, and MudBlazor"
+    ),
     emoji("⚡ Work with relational databases (SQLite, PostgreSQL, SQL Server)"),
     emoji("⚡ Deploy and manage apps using GitHub, Railway, and Azure"),
-    emoji("⚡ Provide IT support, networking help, and user training"),
+    emoji("⚡ Provide IT support, networking help, and user training")
   ],
-
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
-  { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
-  { skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt" },
-  { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-  { skillName: "reactjs", fontAwesomeClassname: "fab fa-react" },
-  { skillName: "nodejs", fontAwesomeClassname: "fab fa-node" },
-  { skillName: "python", fontAwesomeClassname: "fab fa-python" },
-  { skillName: "C#", fontAwesomeClassname: "fas fa-code" }, // generic code icon
-  { skillName: "Flask", fontAwesomeClassname: "fas fa-flask" }, // also generic
-  { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-  { skillName: "git", fontAwesomeClassname: "fab fa-git-alt" },
-  { skillName: "azure", fontAwesomeClassname: "fab fa-microsoft" },
-  { skillName: "Visual Studio", fontAwesomeClassname: "fas fa-laptop-code" },
-],
-display: true
+  softwareSkills: [
+    {skillName: "html-5", fontAwesomeClassname: "fab fa-html5"},
+    {skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "reactjs", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "nodejs", fontAwesomeClassname: "fab fa-node"},
+    {skillName: "python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "C#", fontAwesomeClassname: "fas fa-code"}, // generic code icon
+    {skillName: "Flask", fontAwesomeClassname: "fas fa-flask"}, // also generic
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "azure", fontAwesomeClassname: "fab fa-microsoft"},
+    {skillName: "Visual Studio", fontAwesomeClassname: "fas fa-laptop-code"}
+  ],
+  display: true
 };
 
 // Education Section
@@ -91,7 +95,6 @@ const educationInfo = {
     }
   ]
 };
-
 
 // Your top 3 proficient stacks/tech experience
 
