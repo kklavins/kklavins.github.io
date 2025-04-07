@@ -86,10 +86,11 @@ const educationInfo = {
       logo: require("./assets/images/davenportLogo.jpeg"), // You can add your own logo later
       subHeader: "Bachelor of Science in Computer Science",
       duration: "May 2025",
-      desc: "Concentration in Artificial Intelligence. International student from Riga, Latvia.",
+      desc: "International Student-athlete from Riga, Latvia",
       descBullets: [
         "GPA: 3.96",
-        "Student-athlete on ACHA Division 1 Ice Hockey team"
+        "Concentration in Artificial Intelligence",
+        "ACHA Division 1 Ice Hockey"
       ]
     }
   ]
@@ -119,32 +120,52 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Developer",
-      company: "Prime IT Solutions",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Technical Lab Assistant",
+      company: "Davenport University",
+      companylogo: require("./assets/images/davenportLogo.jpeg"),
+      date: "September 2024 – Present",
+      desc: "Part-time (On-site)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a Python-based web app.",
+        "Reverse-engineered an outdated C# app.",
+        "Worked with Flask, Pandas, HTML, JavaScript, and SQLite.",
+        "Managed project independently.",
+        "Supported lab operations.",
+        "Assisted students with technical issues."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Developer (Full Stack)",
+      company: "Prime IT Solutions",
+      companylogo: require("./assets/images/PrimeITLogo.png"),
+      date: "July 2023 – Present",
+      desc: "Part-time (Remote)",
+      descBullets: [
+        "Created user-friendly web apps.",
+        "Developed a warehouse management system for truck drivers.",
+        "Worked with .NET, Blazor, MudBlazor, and SQL.",
+        "Customized systems based on client needs.",
+        "Creating a Manufacturing Execution System.",
+        "Supported testing and deployment."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "IT Specialist / Help Desk",
+      company: "Store Enso",
+      companylogo: require("./assets/images/storaensoLogo.png"),
+      date: "June 2022 – March 2024",
+      desc: "Part-time (Hybrid)",
+      descBullets: [
+        "Assisted users and resolved issues.",
+        "Managed employee accounts and supported IT services.",
+        "Worked with O365 tools, printers, and laptops.",
+        "Fixed software and hardware problems.",
+        "Set up and maintained workstations.",
+        "Learned IT basics, networking, and asset management."
+      ]
     }
   ]
 };
@@ -160,34 +181,58 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects",
+  subtitle: "REAL-WORLD APPS I BUILT OR CONTRIBUTED TO AS A DEVELOPER",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/rampappIcon.png"),
+      projectName: "RampApp",
+      projectDesc: "Full-stack Blazor app for managing truck arrivals and warehouse flow. Used in logistics for real-time coordination and check-ins.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Available",
+          //url: "https://primeit.lv/blogs/cargo-management-with-rampapp-solution-for-ease-of-cargo-control"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/umesIcon.png"),
+      projectName: "UMES",
+      projectDesc: "Manufacturing Execution System for tracking production, orders, inventory, and shipping in real-time.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "In Progress",
+          //url: "#"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/BPAIcon.png"),
+      projectName: "BPA Tester App",
+      projectDesc: "Python Flask web app for creating, taking, and grading student tests. Rebuilt from a legacy C# app with role-based access.",
+      footerLink: [
+        {
+          name: "Available",
+          //url: "https://primeit.lv/blogs/cargo-management-with-rampapp-solution-for-ease-of-cargo-control"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/TaskItIcon.png"),
+      projectName: "TaskIt",
+      projectDesc: "Calendar-based task management app with features for scheduling, prioritizing, and tracking tasks across multiple projects.",
+      footerLink: [
+        {
+          name: "Available",
+          //url: "https://primeit.lv/blogs/cargo-management-with-rampapp-solution-for-ease-of-cargo-control"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -331,7 +376,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
